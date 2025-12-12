@@ -2,6 +2,24 @@
 
 This document provides a comprehensive analysis of which strategies from the unified evaluation workflow are natively supported by the LM Evaluation Harness (lm-eval). A strategy is considered "supported" only if the harness provides it natively—that is, installing the harness enables the strategy directly without requiring additional implementation, custom modules, or integration with external libraries.
 
+**Quick Summary:** 17 out of 34 strategies (50%) are natively supported.
+
+**Best Use Case:** Offline batch evaluation of language models on static benchmark datasets with traditional NLP metrics.
+
+**Not Suitable For:** Production monitoring, interactive agents, performance benchmarking, non-LM systems.
+
+---
+
+## Table of Contents
+
+- [Phase 0: Provisioning (The Runtime)](#phase-0-provisioning-the-runtime) - 4/8 supported
+- [Phase I: Specification (The Contract)](#phase-i-specification-the-contract) - 5/10 supported
+- [Phase II: Execution (The Run)](#phase-ii-execution-the-run) - 1/4 supported
+- [Phase III: Assessment (The Score)](#phase-iii-assessment-the-score) - 5/6 supported
+- [Phase IV: Reporting (The Output)](#phase-iv-reporting-the-output) - 2/6 supported
+- [Summary Statistics](#summary-statistics)
+- [Conclusion](#conclusion)
+
 ---
 
 ## Phase 0: Provisioning (The Runtime)
