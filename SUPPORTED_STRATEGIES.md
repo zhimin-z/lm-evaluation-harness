@@ -591,11 +591,11 @@ The harness does not provide automatic regression detection or alerting.
 | Phase | Supported | Not Supported | Partial | Total |
 |-------|-----------|---------------|---------|-------|
 | **Phase 0: Provisioning** | 4 | 4 | 0 | 8 |
-| **Phase I: Specification** | 5 | 4 | 0 | 9 |
+| **Phase I: Specification** | 5 | 5 | 0 | 10 |
 | **Phase II: Execution** | 1 | 3 | 0 | 4 |
 | **Phase III: Assessment** | 5 | 1 | 0 | 6 |
 | **Phase IV: Reporting** | 2 | 4 | 0 | 6 |
-| **TOTAL** | **17** | **16** | **0** | **33** |
+| **TOTAL** | **17** | **17** | **0** | **34** |
 
 ### Support by Strategy Category
 
